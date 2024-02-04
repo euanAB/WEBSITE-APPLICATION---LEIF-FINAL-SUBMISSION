@@ -1,0 +1,78 @@
+﻿@model Leif_Gym_Manager.Models.CheckInOuts
+
+@{
+    ViewData["Title"] = "Create";
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js" defer></script>
+
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" />
+
+
+
+<div class="container-fluid">
+    <div class="animated fadeIn">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h1>Check In Out</h1>
+                    </div>
+                    <div class="card-body">
+                        <table id="table_id" class="table table-responsive-sm">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.FobNumber)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.CheckIn)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.CheckOut)
+                                    </th>
+                                   
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model.check_IN_OUT != null)
+                                {
+                                    foreach (var item in Model.check_IN_OUT)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.FobNumber)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.CheckIn)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.CheckOut)
+                                            </td>
+
+                                            <td>
+                                                <a asp-action="EditCheckIn" asp-route-id="@item.FobNumber">CheckIn</a> |
+                                                    
+                                                <a asp-action="EditCheckOut" asp-route-id="@item.FobNumber">CheckOut</a> 
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $("#table_id").dataTable();
+    });
+</script>

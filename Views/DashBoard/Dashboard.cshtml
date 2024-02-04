@@ -1,0 +1,165 @@
+﻿@model Leif_Gym_Manager.Models.DashboardModel
+
+@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="animated fadeIn">
+        <div class="row">
+            <div class="col-sm-6 col-lg-3">
+                <div class="card text-white bg-primary">
+                    <div class="card-body pb-0">
+                        <div class="btn-group float-right">
+                            
+                        </div>
+                        <div class="text-value">@ViewBag.TotalMember</div>
+                        <div>Total Members</div>
+                    </div>
+                    <div class="chart-wrapper mt-3 mx-3" style="height:70px;">
+                        <canvas class="chart" id="card-chart1" height="70"></canvas>
+                    </div>
+                </div>
+            </div>
+            <!-- /.col-->
+            <div class="col-sm-6 col-lg-3">
+                <div class="card text-white bg-info">
+                    <div class="card-body pb-0">
+                        <button class="btn btn-transparent p-0 float-right" type="button">
+                            <i class="icon-location-pin"></i>
+                        </button>
+                        <div class="text-value">@ViewBag.CurrentChecking</div>
+                        <div>Check in</div>
+                    </div>
+                    <div class="chart-wrapper mt-3 mx-3" style="height:70px;">
+                        <canvas class="chart" id="card-chart2" height="70"></canvas>
+                    </div>
+                </div>
+            </div>
+           
+            <!-- /.col-->
+        </div>
+        <!-- /.row-->
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <h4 class="card-title mb-0">Checked IN</h4>
+                        <div class="small text-muted"></div>
+                    </div>
+                    <!-- /.col-->
+                    <div class="col-sm-7 d-none d-md-block">
+                        <button class="btn btn-primary float-right" type="button">
+                            <i class="icon-cloud-download"></i>
+                        </button>
+                        <div class="btn-group btn-group-toggle float-right mr-3" data-toggle="buttons">
+                            <label class="btn btn-outline-secondary active">
+                                <input id="option1" type="radio" name="options" autocomplete="off"> 50
+                            </label>
+                            @* <label class="btn btn-outline-secondary active">
+                                <input id="option2" type="radio" name="options" autocomplete="off" checked=""> 100
+                            </label>
+                            <label class="btn btn-outline-secondary">
+                                <input id="option3" type="radio" name="options" autocomplete="off"> 150
+                            </label> *@
+                        </div>
+                    </div>
+                    <!-- /.col-->
+                </div>
+                <!-- /.row-->
+                <div class="chart-wrapper" style="height:300px;margin-top:40px;">
+                    <canvas class="chart"  id="tt" height="300"></canvas>
+
+                    @* <canvas class="chart" id="main-chart" height="300"></canvas> *@
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="row text-center">
+                  
+                </div>
+            </div>
+        </div>
+        <!-- /.card-->
+      
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.30.1/date_fns.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    @* <script src="~/lib/chart.js/dist/Chart.min.js"></script>
+    <script src="~/lib/coreui/js/custom-tooltips.min.js"></script> *@
+    @* <script src="~/lib/coreui/js/main.js"></script> *@
+    <script>
+        $(document).ready(function () {
+            debugger;
+            var time = @Html.Raw(Json.Serialize(@Model.charts));
+            const options = {
+                type: 'line',
+                data: {
+                    datasets: [{
+                        label: '# of Current Visit',
+                        data: time,
+                        borderColor: 'pink'
+                    }]
+                },
+                options: {
+                    scales: {
+                        x: {
+                            type: 'date'
+                        }
+                    }
+                }
+            }
+
+            const ctx = document.getElementById('tt').getContext('2d');
+            new Chart(ctx, options);
+           
+           
+            // var mainChart = new Chart($('#main-chart'), {
+            //     type: 'line',
+            //     data: {
+            //         labels: "# of Check IN",//['M', 'T', 'W', 'T', 'F', 'S', 'S', 'M', 'T', 'W', 'T', 'F', 'S', 'S', 'M', 'T', 'W', 'T', 'F', 'S', 'S', 'M', 'T', 'W', 'T', 'F', 'S', 'S'],
+            //         datasets: [ {
+            //             label: 'My Second dataset',
+            //             backgroundColor: 'transparent',
+            //             borderColor: getStyle('--success'),
+            //             pointHoverBackgroundColor: '#fff',
+            //             borderWidth: 2,
+            //             data: time,//[500, 92, 97, 80, 100, 86, 97, 83, 98, 87, 98, 93, 83, 87, 98, 96, 84, 91, 97, 88, 86, 94, 86, 95, 91, 98, 91, 92, 80, 83, 82]
+            //         }]
+            //     },
+            //     options: {
+            //         maintainAspectRatio: false,
+            //         legend: {
+            //             display: false
+            //         },
+            //         scales: {
+            //             xAxes: [{
+            //                 gridLines: {
+            //                     drawOnChartArea: false
+            //                 }
+            //             }],
+            //             yAxes: [{
+            //                 ticks: {
+            //                     // beginAtZero: true,
+            //                     // maxTicksLimit: 5,
+            //                     // stepSize: Math.ceil(250 / 5),
+            //                 }
+            //             }]
+            //         },
+            //         elements: {
+            //             point: {
+            //                 radius: 0,
+            //                 hitRadius: 10,
+            //                 hoverRadius: 4,
+            //                 hoverBorderWidth: 3
+            //             }
+            //         }
+            //     }
+            // });
+        })
+    </script>
+}

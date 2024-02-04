@@ -1,0 +1,48 @@
+﻿@model Leif_Gym_Manager.Models.MemberStatuss
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="col-sm-6">
+    <div class="card">
+        <div class="card-header">
+            <h1>
+                Create Member Status
+            </h1>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="MemberStatus1" class="control-label"></label>
+                            <input asp-for="MemberStatus1" class="form-control" />
+                            <span asp-validation-for="MemberStatus1" class="text-danger"></span>
+                        </div>
+                        <div class="form-group form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" asp-for="IsActive" /> @Html.DisplayNameFor(model => model.IsActive)
+                            </label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="submit" value="Create" class="btn btn-primary" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

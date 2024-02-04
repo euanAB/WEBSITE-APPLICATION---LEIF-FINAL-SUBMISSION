@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Leif_Gym_Manager.Models.PaymentType>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container-fluid">
+    <div class="animated fadeIn">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h1>Payment</h1>
+                        <i class="fa fa-plus fa-align-justify"></i> <p>
+                            <a asp-action="Create">Create New</a>
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-responsive-sm">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.PaymentAmount)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Method)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Status)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.CreatedAt)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.UpdatedAt)
+                                    </th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.PaymentAmount)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Method)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Status)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.CreatedAt)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.UpdatedAt)
+                                        </td>
+                                        <td>
+                                            <a asp-action="Edit" asp-route-id="@item.PaymentId">Edit</a> |
+                                            <a asp-action="Details" asp-route-id="@item.PaymentId">Details</a> |
+                                            <a asp-action="Delete" asp-route-id="@item.PaymentId">Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>

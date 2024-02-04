@@ -1,0 +1,65 @@
+﻿@model Leif_Gym_Manager.Models.Class
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+
+<div class="col-sm-6">
+    <div class="card">
+        <div class="card-header">
+            <h1>Edit Classes </h1>
+
+        </div>
+        <div class="card-body">
+           
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group" style="display:block;">
+                    <input class="form-control" asp-for="ClassId" type="hidden">
+                    <input class="form-control" asp-for="CreatedAt" type="hidden">
+                </div>
+                <div class="form-group">
+                    <label asp-for="ClassName" class="control-label"></label>
+                    <input asp-for="ClassName" class="form-control" />
+                    <span asp-validation-for="ClassName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Time" class="control-label"></label>
+                    <input asp-for="Time" class="form-control" />
+                    <span asp-validation-for="Time" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Day" class="control-label"></label>
+                    <select asp-for="Day" class="form-control" asp-items="ViewBag.Day"></select>
+                    <span asp-validation-for="Day" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Capacity" class="control-label"></label>
+                    <input asp-for="Capacity" class="form-control" />
+                    <span asp-validation-for="Capacity" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Field" class="control-label"></label>
+                    <input asp-for="Field" class="form-control" />
+                    <span asp-validation-for="Field" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Location" class="control-label"></label>
+                    <select asp-for="Location" class="form-control" asp-items="ViewBag.Location"></select>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Update" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Leif_Gym_Manager.props" />
+</Project>

@@ -1,0 +1,47 @@
+﻿@model Leif_Gym_Manager.Models.AppointmentManager
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="col-sm-12">
+    <div class="card">
+        <div class="card-header">
+           <h1>Appointment Detail</h1>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Date)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Date)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Time)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Time)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Class)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Class.ClassId)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Member)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Member.MembersId)
+                </dd>
+            </dl>
+        </div>
+        <div class="card-footer">
+            <div>
+                <a asp-action="Edit" asp-route-id="@Model.AppointmentManagerId">Edit</a> |
+                <a asp-action="Index">Back to List</a>
+            </div>
+        </div>
+    </div>
+</div>

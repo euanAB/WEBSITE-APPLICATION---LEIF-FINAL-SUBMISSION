@@ -1,0 +1,102 @@
+﻿@model IEnumerable<Leif_Gym_Manager.Models.Class>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="container-fluid">
+    <div class="animated fadeIn">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h1>Classes</h1>
+                        <i class="fa fa-plus fa-align-justify"></i> <p>
+                            <a asp-action="Create">Create New</a>
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-responsive-sm">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.ClassName)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Time)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Day)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Capacity)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Field)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Location)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.CreatedAt)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.UpdatedAt)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Staff)
+                                    </th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.ClassName)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Time)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Day)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Capacity)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Field)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Location)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.CreatedAt)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.UpdatedAt)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Staff.Email)
+                                        </td>
+                                        <td>
+                                            <a asp-action="Edit" asp-route-id="@item.ClassId">Edit</a> |
+                                            <a asp-action="Details" asp-route-id="@item.ClassId">Details</a> |
+                                            <a asp-action="Delete" asp-route-id="@item.ClassId">Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+       
+        
+    </div>
+</div>
+

@@ -1,0 +1,143 @@
+﻿@model Leif_Gym_Manager.Models.Member
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="col-sm-6">
+    <div class="card">
+        <div class="card-header">
+            <h1>Edit Members </h1>
+
+        </div>
+        <div class="card-body">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="MembersId" />
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label asp-for="FobNumber" class="control-label"></label>
+                            <input asp-for="FobNumber" class="form-control" />
+                            <span asp-validation-for="FobNumber" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">MemberShipTypeI</label>
+                            <select asp-for="MemberShipTypeId" class="form-control" asp-items="ViewBag.MemberShipTypeId"></select>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label"> PaymentType</label>
+                            <select asp-for="PaymentTypeId" class="form-control" asp-items="ViewBag.PaymentTypeId"></select>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label"> MemberStatus</label>
+                            <select asp-for="MemberStatusId" class="form-control" asp-items="ViewBag.MemberStatusId"></select>
+                            <span asp-validation-for="MemberStatusId" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="FirstName" class="control-label"></label>
+                            <input asp-for="FirstName" class="form-control" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="LastName" class="control-label"></label>
+                            <input asp-for="LastName" class="form-control" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="DateOfBirth" class="control-label"></label>
+                            <input asp-for="DateOfBirth" class="form-control" />
+                            <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Email" class="control-label"></label>
+                            <input asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label asp-for="Phone" class="control-label"></label>
+                            <input asp-for="Phone" class="form-control" />
+                            <span asp-validation-for="Phone" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Ethinicity" class="control-label"></label>
+                            <select asp-for="Ethinicity" class="form-control">
+                                <optgroup label="Asian or Asian British">
+                                    <option value="Indian">Indian</option>
+                                    <option value="Pakistani">Pakistani</option>
+                                    <option value="Bangladeshi">Bangladeshi</option>
+                                    <option value="Chinese">Chinese</option>
+                                    <option value="Any other Asian background">Any other Asian background</option>
+                                </optgroup>
+                                <optgroup label="Black, Black British, Caribbean or African">
+                                    <option value="White and Black Caribbean">White and Black Caribbean</option>
+                                    <option value="White and Black African">White and Black African</option>
+                                    <option value="White and Asian">White and Asian</option>
+                                    <option value="Any other Mixed or multiple ethnic background">Any other Mixed or multiple ethnic background</option>
+                                </optgroup>
+                                <optgroup label="White">
+                                    <option value="English, Welsh, Scottish, Northern Irish or British">English, Welsh, Scottish, Northern Irish or British</option>
+                                    <option value="Irish">Irish</option>
+                                    <option value="Gypsy or Irish Traveller">Gypsy or Irish Traveller</option>
+                                    <option value="Roma">Roma</option>
+                                    <option value="Any other White background">Any other White background</option>
+                                </optgroup>
+                            </select>
+                            <span asp-validation-for="Ethinicity" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Religion" class="control-label"></label>
+                            <select asp-for="Religion" class="form-control" asp-items="ViewBag.Region"></select>
+                            <span asp-validation-for="Religion" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Title" class="control-label"></label>
+                            <input asp-for="Title" class="form-control" />
+                            <span asp-validation-for="Title" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="MedicalNotes" class="control-label"></label>
+                            <input asp-for="MedicalNotes" class="form-control" />
+                            <span asp-validation-for="MedicalNotes" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="StartDate" class="control-label"></label>
+                            <input asp-for="StartDate" class="form-control" />
+                            <span asp-validation-for="StartDate" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Weight" class="control-label"></label>
+                            <input asp-for="Weight" class="form-control" />
+                            <span asp-validation-for="Weight" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Height" class="control-label"></label>
+                            <input asp-for="Height" class="form-control" />
+                            <span asp-validation-for="Height" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input asp-for="CreatedAt" type="hidden" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Save" class="btn btn-primary" />
+                        </div>
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

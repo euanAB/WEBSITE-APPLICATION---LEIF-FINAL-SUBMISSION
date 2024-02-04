@@ -1,0 +1,273 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Leif_Gym_Manager
+build_property.RootNamespace = Leif_Gym_Manager
+build_property.ProjectDir = Z:\THE COMMERCIAL GROUP GATEWAY\UNIVERSITY\COMPUTING WITH WEB DEVELOPMENT\WEB APPLICATIONS\FINAL Leif_Gym_Manager (V4)\Leif_Gym_Manager\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = Z:\THE COMMERCIAL GROUP GATEWAY\UNIVERSITY\COMPUTING WITH WEB DEVELOPMENT\WEB APPLICATIONS\FINAL Leif_Gym_Manager (V4)\Leif_Gym_Manager
+build_property._RazorSourceGeneratorDebug = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/AppointmentManagers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRNYW5hZ2Vyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/AppointmentManagers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRNYW5hZ2Vyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/AppointmentManagers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRNYW5hZ2Vyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/AppointmentManagers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRNYW5hZ2Vyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/AppointmentManagers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRNYW5hZ2Vyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/CheckInOut/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tJbk91dFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Classes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Classes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Classes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Classes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Classes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/DashBoard/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaEJvYXJkXERhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Home/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Locations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Locations/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Locations/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Locations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Locations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/MemberShipTypes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyU2hpcFR5cGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/MemberShipTypes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyU2hpcFR5cGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/MemberShipTypes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyU2hpcFR5cGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/MemberShipTypes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyU2hpcFR5cGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/MemberShipTypes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyU2hpcFR5cGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/MemberStatus/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyU3RhdHVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/MemberStatus/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyU3RhdHVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/MemberStatus/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyU3RhdHVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/MemberStatus/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyU3RhdHVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/MemberStatus/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyU3RhdHVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Members/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Members/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Members/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Members/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Members/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/PaymentMethods/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudE1ldGhvZHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/PaymentMethods/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudE1ldGhvZHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/PaymentMethods/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudE1ldGhvZHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/PaymentMethods/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudE1ldGhvZHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/PaymentMethods/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudE1ldGhvZHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/PaymentStatus/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFN0YXR1c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/PaymentStatus/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFN0YXR1c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/PaymentStatus/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFN0YXR1c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/PaymentStatus/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFN0YXR1c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/PaymentStatus/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFN0YXR1c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/PaymentTypes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFR5cGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/PaymentTypes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFR5cGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/PaymentTypes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFR5cGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/PaymentTypes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFR5cGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/PaymentTypes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFR5cGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Shared/_AsideMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Bc2lkZU1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Shared/_CookieConsentPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db29raWVDb25zZW50UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Shared/_LayoutFullScreen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRGdWxsU2NyZWVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Shared/_NavBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZCYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Shared/_SideBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlQmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Staffs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Staffs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Staffs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Staffs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Staffs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/THE COMMERCIAL GROUP GATEWAY/UNIVERSITY/COMPUTING WITH WEB DEVELOPMENT/WEB APPLICATIONS/FINAL Leif_Gym_Manager (V4)/Leif_Gym_Manager/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-fjn41imgxx
